@@ -1,0 +1,65 @@
+
+/* Common Css */
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    outline: none;
+    overflow: hidden;
+    list-style-type: none;
+}
+
+body{
+    background-color: olive;
+}
+
+.center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/*End of Common CSS*/
+
+
+/*Calculator field CSS*/
+.calculator
+{
+    margin-top:10rem ;
+    padding:3rem;
+    background-color: olive;
+    border-radius: 3rem;
+    width:60%1;
+    height:15rem;
+    box-shadow: 1rem 1rem 2rem white,-1rem -1rem 2rem white;
+}
+
+.calculator.center{
+    flex-direction: column;
+    justify-content: space-between;
+}
+.calculator h1{
+    color:whitesmoke;
+    border-bottom: 0.2rem solid white;
+    text-transform: capitalize ;
+}
+
+.calculator-field.center{
+    flex-direction: column;
+}
+
+.calculator table{
+    width: 60%;
+    height: 60%;
+    border: 1px solid white;
+    box-shadow: 0.5rem 0.5rem 1rem whitesmoke,-0.5rem -0.5rem 1rem whitesmoke;
+}
+.calculator table tr td input[type='button'], input[type='text']
+{
+    background-color: white;
+    color: olivedrab;
+    padding:0.6rem 1.5rem;
+    font-weight: bold;
+    font-size: 10px;
+}
+/*End of Calculator CSS*/
+
