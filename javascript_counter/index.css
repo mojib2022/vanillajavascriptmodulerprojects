@@ -1,0 +1,141 @@
+/*Common CSS*/
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    outline: none;
+    overflow: none;
+    text-decoration: none;
+}
+/*End of Common CSS*/
+
+/*Display Style*/
+.center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/*End of Display Style*/
+
+/*Counter CSS*/
+.counter_container.center{
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.counter_container{
+    background-color: gray;
+    width:60vw;
+    height: 30vh;
+    position: relative;
+    margin-top: 15%;
+    border-radius: 2rem;
+    box-shadow: 0.4rem 0.4rem 1rem whitesmoke, -0.4rem -0.4rem 1rem whitesmoke;
+}
+
+.counter_container h1{
+    color:aliceblue;
+    border-bottom: 1px solid white;
+    font-size: 1.7rem;
+}
+
+.counter button{
+    padding:1rem;
+    background-color: black;
+    color:white;
+    font-weight: bold;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    margin: 0.3rem;
+}
+
+.display_counter p
+{
+    background-color: gray;
+    color:aliceblue;
+    font-weight: bold;
+    font-size: 1rem;
+    width:3rem;
+    height: 3rem;
+    border-radius: 1rem;
+    box-shadow: 0.2rem 0.2rem 0.4rem whitesmoke, -0.2rem -0.2rem 0.4rem whitesmoke;
+}
+/*End of Counter CSS*/
+
+/*Responsive CSS*/
+@media screen and (min-width: 480px) {
+    body {
+      background-color: gray;
+    }
+    .counter{
+      background-color: gray;
+    }
+    .counter_container{
+      margin-top: 40%;
+      background-color: gray;
+      width:60vw;
+      height: 30vh;
+    }
+    .counter button{
+      background-color: gray;
+    }
+    .display_counter p
+    {
+        background-color: gray;
+    }
+    .counter h1{
+     font-size: 1.5rem;
+    }
+  }
+
+
+  @media screen and (min-width: 680px) {
+    body {
+      background-color: rgb(63, 39, 183);
+    }
+    .counter{
+      background-color: rgb(63, 39, 183);
+    }
+    .counter_container{
+        margin-top: 20%;
+        background-color: rgb(63, 39, 183);
+        width:50vw;
+        height: 35vh;
+      }
+    .display_counter p
+      {
+          background-color: rgb(63, 39, 183);
+      }
+    .counter button{
+      background-color: rgb(63, 39, 183);
+    }
+    .counter h1{
+      font-size: 1.8rem;
+     }
+  }
+  @media screen and (min-width: 1080px) {
+    body {
+      background-color: rgb(6, 64, 38);
+    }
+    .counter{
+      background-color: rgb(6, 64, 38);
+    }
+    .counter_container{
+        margin-top: 15%;
+        background-color: rgb(6, 64, 38);
+        width:40vw;
+        height: 40vh;
+      }
+
+    .display_counter p
+      {
+          background-color: rgb(6, 64, 38);
+      }
+    .counter button{
+      background-color: rgb(6, 64, 38);
+    }
+    .counter h1{
+      font-size: 2rem;
+     }
+  }
+  /*End of Responsive CSS*/
