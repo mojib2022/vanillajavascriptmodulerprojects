@@ -1,0 +1,125 @@
+/*Common Styles*/
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container.center{
+    flex-direction: column;
+}
+/*Common Styles*/
+
+/*Menu Styles*/
+.container .top{
+    background-color: olivedrab;
+    width: 100vw;
+    height: 2rem;
+}
+.container .top.center{
+    justify-content: space-between;
+}
+
+.container .top .logo{
+    color:white;
+    background-color: olivedrab;
+    border:1px solid white;
+    margin-left: 1rem;
+    border-radius: 20%;
+    cursor: pointer;
+}
+
+.container .top .menu ul li{
+    color: white;
+    margin-left:3rem;
+    text-align: center;
+    cursor: pointer;
+    transition: transform 1s ease;
+
+}
+
+.container .top .menu ul li:hover{
+    transform: scale(1.2);
+    box-shadow: 0.1rem 0.1rem 0.2rem gray,-0.1rem -0.1rem 0.2rem gray;
+}
+
+.logging div{
+    transition: transform 1s ease;
+}
+.logging div a{
+    margin-left: 1.5rem;
+    color: white;
+    margin-right: 1rem;
+    
+}
+
+.logging div:hover{
+    transform: scale(1.1);
+}
+
+/*End of Menu Styles*//*Meal Styles*/
+
+/*Meal Styles*/
+.meals-wrapper{
+    flex-wrap: wrap;
+}
+
+.meals-wrapper .meal{
+    margin-top: 5rem;
+    border: 1px solid black;
+    padding:0.5rem 1rem;
+    border-radius: 1rem;
+    transition: transform 1s ease;
+    cursor: pointer;
+    margin-right: 6rem;
+}
+
+.meals-wrapper .meal.center{
+    flex-direction: column;
+    
+}
+
+.meals-wrapper .meal p{
+    color:cadetblue;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    text-align: center;
+    margin: 0.5rem;
+   
+}
+
+.meals-wrapper .meal p:nth-child(1)
+{
+    border-bottom: 1px solid olive;
+}
+.meals-wrapper .meal:hover{
+    transform:scale(1.05);
+}
+.meals-wrapper .meal img{
+    width: 10rem;
+    height: 11rem;
+    border-radius: 1rem;
+    box-shadow: 0.2rem 0.2rem 0.4rem gray,-0.2rem 0.2rem 0.4rem gray;
+}
+/*End of Meals Styles*/
+
+
+/*Footer Styles*/
+.footer{
+    position:fixed;
+    bottom: 0;
+    width:100vw;
+    height: 3rem;
+    background-color: olivedrab;
+    color:aliceblue;
+    text-align: center;
+}
+
+/*End of Footer Styles*/
