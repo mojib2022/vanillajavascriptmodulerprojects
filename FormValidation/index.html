@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class='center'>
+    <div class="formValidation-wrapper center">
+        <h1>Javascript Form Validation</h1>
+
+        <table class="formfields">
+        <tr>
+        <td>    
+        <label for="username">User Name  </label>
+        </td>
+        <td>
+        <input type="text" name="username" id="username" placeholder="Enter Username">
+        </td>
+        </tr>
+        
+        <tr>
+        <td>    
+        <label for="email">Email</label>
+        </td>
+        <td>
+        <input type="text" name="email" id="email" placeholder="Enter Email">
+        </td>
+        </tr>
+
+        <tr>
+        <td>        
+        <label for="password">Password</label>
+        </td>
+        <td>
+        <input type="password" name='passowrd' id="password" placeholder="Enter Password">
+        </td>
+        </tr>
+
+        <tr>
+        <td>
+        <label for="c_password">Confirm password</label>
+        </td>
+        <td>
+        <input type="password" name='c_password' id="c_password" placeholder="Enter Confirm Password">
+        </td>
+        </tr>
+        <tr>
+        <td colspan="2">
+        <button onclick="validation()">Submit</button>
+         </td>
+         </tr>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
