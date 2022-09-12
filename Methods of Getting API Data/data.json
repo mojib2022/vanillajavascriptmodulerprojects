@@ -1,0 +1,6 @@
+{"employees":[
+    { "firstName":"John", "lastName":"Doe", "position":"Team Member", "salary":"$5000"},
+    { "firstName":"Anna", "lastName":"Smith" , "position":"Team Leader", "salary":"$6000"},
+    { "firstName":"Peter", "lastName":"Jones" , "position":"Manager", "salary":"$7000"},
+    { "firstName":"Mohammad", "lastName":"Rahman" , "position":"CEO", "salary":"$10000"}
+  ]}
